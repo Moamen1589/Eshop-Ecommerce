@@ -165,9 +165,9 @@
     height: 800px;
     background-color: #f6f7fb;
     position: fixed;
-    width: calc(100% - 100px);
+    width: 100%;
     top: 30px;
-    padding: 50px;
+    padding: 40px;
     overflow: auto;
     left: 50%;
     z-index: 10;
