@@ -162,10 +162,10 @@
 }
 
 .itemscon {
+    width: 100%;
     height: 800px;
     background-color: #f6f7fb;
     position: fixed;
-    width: 100%;
     top: 30px;
     padding: 40px;
     overflow: auto;
@@ -365,7 +365,6 @@ label {
     height: 800px;
     background-color: #f6f7fb;
     position: fixed;
-    width: calc(100% - 100px);
     top: 30px;
     overflow: auto;
     left: 50%;
