@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/images (2).jpeg">
+    <!-- Tailwind CSS file -->
+    <!-- Tailwind CSS file -->
+    <link rel="stylesheet" href="./Tailwind-css/output.css">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="./custom-css/style.css">
+    <link rel="stylesheet" href="./custom-css/products.css">
+    <!-- Font Awesome file -->
+    <link rel="stylesheet" href="./custom-css/all.min.css">
+    <!-- aos library css -->
+    <link rel="stylesheet" href="./aos/dist/aos.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <!-- Contact Section -->
+    <div class="contact h-16 border-b flex justify-around items-center pt-3 pb-3">
+        <div class="mail">
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-headphones text-main_color mr-2"></i>+060 (800) 801-582
+            </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-regular fa-envelope text-main_color mr-2"></i>support@shophub.com
+            </span>
+        </div>
+        <div class="login">
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-location-dot text-main_color mr-2"></i>Store Location
+            </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-regular fa-clock text-main_color mr-2"></i>Daily Deal
+            </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-regular fa-user text-main_color mr-2"></i>My Account
+            </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-power-off text-main_color mr-2"></i>Login
+            </span>
+        </div>
+    </div>
+
+    <!-- Navigation Section -->
+    <!-- Header Section -->
+    <header>
+        <nav class="main-header-2 flex justify-around  h-32 relative">
+            <!-- Logo -->
+            <div class="logo content-center" data-aos="fade-left" data-aos-duration="2000">
+                <a href="index.html"><img class="w-36" src="./images/logo.png" alt="Logo"></a>
+            </div>
+
+            <!-- Search Input -->
+            <div class="input content-center">
+                <select name="select" id="selectBox" class="border border-custom h-20 p-3 text-gray-40 text-base">
+                    <option value="Allcategory">All Category</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="watch">Watch</option>
+                </select>
+                <input type="text" name="search" class=" w-96 border border-custom h-20 p-3 text-second_color text-lg"
+                    placeholder="Search Products Here..">
+                <button type="submit" id="search-button" class="w-24 h-20 bg-current relative top-1">
+                    <i class="fa-solid fa-magnifying-glass text-white text-3xl"></i>
+                </button>
+            </div>
+
+            <!-- User Icons -->
+            <div class="card w-52 flex justify-center items-center gap-9" data-aos="fade-left" data-aos-duration="1100">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-bag-shopping items">
+                    <span
+                        class="counter text-white bg-main_color w-6 h-6 text-center content-center  text-xs rounded-full">0</span>
+                </i>
+            </div>
+
+            <!-- Shopping Cart -->
+            <div class="shopping-items">
+                <div class="items-card flex w-full h-20 justify-around items-center p-3 border-b border-custom">
+                    <span class="items-num font-bold">Selected Items</span>
+                </div>
+                <div class="selected-items  h-56 overflow-hidden flex p-3 justify-between  flex-col gap-3 ">
+
+                </div>
+                <p class=" more  absolute bottom-24 text-center w-full"></p>
+                <a href="checkout.html"
+                    class="  checkout mb-4 bg-second_color py-4  text-lg text-center text-white  w-80 block absolute bottom-0  left-1/2 -translate-x-1/2 ">Check
+                    Out</a>
+
+            </div>
+            <!-- Shopping Cart -->
+            <div class="shopping-items">
+                <div class="items-card flex w-full h-20 justify-around items-center p-3 border-b border-custom">
+                    <span class="items-num font-bold">Items</span>
+                    <span class="card font-bold">View Cart</span>
+                </div>
+                <div class="item flex justify-between p-5">
+                    <div class="img-price content-center">
+                        <h5 class="font-bold">Women Bag</h5>
+                        <h6 class="text-second_color p-3">$70</h6>
+                    </div>
+                    <div class="item-img w-24 h-24 bg-black"></div>
+                </div>
+            </div>
+            <div class="options content-center relative">
+                <i class="fa-solid fa-list-ul text-4xl text-main_color font-bold cursor-pointer"></i>
+
+            </div>
+
+        </nav>
+    </header>
+    <header>
+        <ul class="op-list">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="product.html">
+                <li>Prouduct</li>
+            </a>
+            <a href="blog.html">
+                <li>Blogs</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <nav class=" main-header w-full  h-20 bg-second_color flex items-center gap-24 justify-start">
+            <div class="category-list relative h-full  cursor-pointer">
+
+
+            </div>
+            <ul class="links-bar flex w-1/2 h-full items-center justify-start">
+                <li id="page1" class="select"><a href="index.html">HOME</a></li>
+                <li id="page2"><a href="product.html">Products</a></li>
+                <li id="page4"><a href="blog.html">Blog</a></li>
+                <li id="page5"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1 class=" checkout-title relative pb-3 text-center text-5xl mt-10  ">Contact Us</h1>
+    <div class="checkform h-fit">
+        <div class="container">
+
+            <h1 class=" text-4xl mt-8 font-bold">Fill Your Data Please</h1>
+            <p class=" text-2xl text-second_color mt-4 mb-4">Please register in order to Contact Us more quickly</p>
+            <div class="contact-us ">
+                <form class=" basis-full">
+                    <label for="first" class=" flex flex-col"> First Name* <input type="text" name="first">
+                    </label>
+                    <label for="last" class=" flex flex-col"> Last Name* <input type="text" name="last">
+                    </label>
+                    <label for="email" class=" flex flex-col"> Email* <input type="email" name="email">
+                    </label>
+                    <label for="phone" class=" flex flex-col"> Phone Number* <input type="number" name="phone">
+                    </label>
+                    <label for="select" class=" flex flex-col"> Country* <select name="select" id="select">
+                            <optgroup>
+                                <option value="" hidden></option>
+                                <option value="">Egypt</option>
+                                <option value="">Brazil</option>
+                                <option value="">Syria</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <label for="date" class=" flex flex-col"> Date* <input type="date" name="date">
+                    </label>
+                    <label for="add" class=" flex flex-col"> Address* <input type="text" name="add">
+                    </label>
+                    <label for="HomePhone" class=" flex flex-col"> Home Phone* <input type="text" name="HomePhone">
+                    </label>
+                    <input class=" contact-submit bg-second_color text-white font-bold" type="submit">
+                </form>
+            </div>
+        </div>
+        <footer class="h-max ">
+            <div class="container p-7 h-full">
+                <div class="fot-item">
+                    <a href="#">
+                        <img src="./images/logo2.png" alt="">
+                    </a>
+                    <p class=" mt-5 leading-loose">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue,
+                        magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+                        facilisis
+                        luctus, metus.</p>
+                    <p class="  mt-6">Got Question? Call us 24/7</p>
+                    <h2 class="  text-main_color text-3xl font-bold">0123456789</h2>
+                </div>
+                <div class="fot-item ">
+                    <h1>Information</h1>
+                    <ul>
+                        <a href="#">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#">
+                            <li>Faq</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms&Conditions</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="#">
+                            <li>Help</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="fot-item">
+                    <h1>Customer Service</h1>
+                    <ul>
+                        <a href="#">
+                            <li>Payment Methods</li>
+                        </a>
+                        <a href="#">
+                            <li>Money-backq</li>
+                        </a>
+                        <a href="#">
+                            <li>Returns</li>
+                        </a>
+                        <a href="#">
+                            <li>Shipping</li>
+                        </a>
+                        <a href="#">
+                            <li>Privacy Policy</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="fot-item">
+                    <h1>Get In Touch</h1>
+                    <ul>
+                        <a href="#">
+                            <li>NO. 342 - London Oxford Street.</li>
+                        </a>
+                        <a href="#">
+                            <li>012 United Kingdom.</li>
+                        </a>
+                        <a href="#">
+                            <li>info@eshop.com</li>
+                        </a>
+                        <a href="#">
+                            <li>+032 3456 7890</li>
+                        </a>
+                        <li class="social">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-cc-paypal"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="payment flex justify-around  p-3 ">
+            <p class=" text-white text-xl ">Copyright © 2020 <a class=" underline" href="#">Eshop</a> - All Rights
+                Reserved.
+            </p>
+            <div class=" w-fit h-fit">
+                <img src="./images/payments (1).png" alt="">
+            </div>
+        </div>
+        <!-- Script -->
+        <script src="contact.js"></script>
+</body>
+
+</html>

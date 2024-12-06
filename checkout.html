@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/images (2).jpeg">
+    <!-- Tailwind CSS file -->
+    <link rel="stylesheet" href="./Tailwind-css/output.css">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="./custom-css/style.css">
+    <!-- page css file  -->
+    <link rel="stylesheet" href="./custom-css/products.css">
+    <!-- Font Awesome file -->
+    <link rel="stylesheet" href="./custom-css/all.min.css">
+    <!-- aos library css -->
+    <link rel="stylesheet" href="./aos/dist/aos.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>CheckOut</title>
+</head>
+
+<body>
+
+    <!-- Contact Section -->
+    <div class="contact h-16 border-b flex justify-around items-center pt-3 pb-3">
+        <div class="mail">
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-headphones text-main_color mr-2"></i>+060 (800) 801-582 </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-envelope text-main_color mr-2"></i>support@shophub.com </span>
+        </div>
+        <div class="login">
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-location-dot text-main_color mr-2"></i>Store Location </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-clock text-main_color mr-2"></i>Daily Deal </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-user text-main_color mr-2"></i>My Account </span>
+            <span class="mr-5 ml-5 pl-2 font-bold border-l border-custom">
+                <i class="fa-solid fa-power-off text-main_color mr-2"></i>Login </span>
+        </div>
+    </div>
+    <!-- Header Section -->
+    <header>
+        <nav class="main-header-2 flex justify-around  px-3 h-32 relative">
+            <!-- Logo -->
+            <div class="logo content-center" data-aos="fade-left" data-aos-duration="2000">
+                <a href="index.html">
+                    <img class="w-36" src="./images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <!-- Search Input -->
+            <div class="input content-center relative">
+                <input type="text" name="search" class=" w-96 border border-custom h-20 p-3 text-second_color text-lg"
+                    placeholder="Search Products Here..">
+                <div class="input-icon absolute  top-1/2 -translate-y-1/2  right-4">
+                    <i class="fa-solid fa-magnifying-glass  text-second_color text-2xl"></i>
+                </div>
+            </div>
+            <!-- <i class="fa-solid fa-magnifying-glass text-white text-3xl"></i> -->
+            <!-- User Icons -->
+            <div class="card w-52 flex justify-center items-center gap-9" data-aos="fade-left" data-aos-duration="1100">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <!-- Shopping Cart -->
+            <div class="shopping-items">
+                <div class="items-card flex w-full h-20 justify-around items-center p-3 border-b border-custom">
+                    <span class="items-num font-bold">Items</span>
+                    <span class="card font-bold">View Cart</span>
+                </div>
+                <div class="selected-items flex justify-between p-5">
+                    <div class="img-price content-center">
+                        <h5 class="font-bold">Women Bag</h5>
+                        <h6 class="text-second_color p-3">$70</h6>
+                    </div>
+                    <div class="item-img w-24 h-24 bg-black"></div>
+                </div>
+            </div>
+            <div class="options content-center relative">
+                <i class="fa-solid fa-list-ul text-4xl text-main_color font-bold cursor-pointer"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Navigation Section -->
+    <header>
+        <ul class="op-list">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="product.html">
+                <li>Prouduct</li>
+            </a>
+            <a href="blog.html">
+                <li>Blogs</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <nav class=" main-header w-full  h-20 bg-second_color flex items-center gap-24 justify-start">
+            <div class="category-list relative h-full  cursor-pointer"></div>
+            <ul class="links-bar flex w-1/2 h-full items-center justify-start">
+                <li id="page1" class="select">
+                    <a href="index.html">HOME</a>
+                </li>
+                <li id="page2">
+                    <a href="product.html">Products</a>
+                </li>
+                <li id="page3">
+                    <a href="services.html">Service</a>
+                </li>
+                <li id="page4">
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li id="page5">
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class=" checkout-title relative pb-3 text-center text-5xl mt-10  ">CheckOut</h1>
+    <div class="checkform h-fit">
+        <div class="container">
+            <h1 class=" text-3xl  mt-20 font-bold  inline-block">To show Selected Products Click Here <i
+                    class="p-arrow fa-solid fa-arrow-right"></i></h1>
+            <button
+                class="showSelected bg-main_color text-xl px-5 rounded-md text-white py-4 mt-6 ml-5 inline-block">Show
+                Selected Products</button>
+            <div class="itemscon">
+                <i class=" close absolute text-4xl cursor-pointer top-5 right-7 fa-regular fa-circle-xmark"></i>
+                <h1 class=" no-items text-center text-4xl font-bold"></h1>
+            </div>
+            <h1 class=" text-4xl mt-8 font-bold">Make Your Checkout Here</h1>
+            <p class=" text-2xl text-second_color mt-4">Please register in order to checkout more quickly</p>
+            <div class="check-out-part ">
+                <form>
+                    <label for="first" class=" flex flex-col"> First Name* <input type="text" name="first">
+                    </label>
+                    <label for="last" class=" flex flex-col"> Last Name* <input type="text" name="last">
+                    </label>
+                    <label for="email" class=" flex flex-col"> Email* <input type="email" name="email">
+                    </label>
+                    <label for="phone" class=" flex flex-col"> Phone Number* <input type="number" name="phone">
+                    </label>
+                    <label for="select" class=" flex flex-col"> Country* <select name="select" id="select">
+                            <optgroup>
+                                <option value="" hidden></option>
+                                <option value="">Egypt</option>
+                                <option value="">Brazil</option>
+                                <option value="">Syria</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <label for="date" class=" flex flex-col"> Date* <input type="date" name="date">
+                    </label>
+                    <label for="pass" class=" flex flex-col"> Password* <input type="password" name="pass">
+                    </label>
+                    <label for="pass" class=" flex flex-col"> re-type Password* <input type="password" name="pass">
+                    </label>
+                </form>
+                <div class="check-process">
+                    <div class="check-info">
+                        <h1 class=" text-4xl text-center">See You Soon <i class="fa-solid fa-hand-holding-heart"></i>
+                        </h1>
+                        <h1 class=" text-xl"> Price : <span class="price"></span>
+                        </h1>
+                        <h1 class=" text-xl">Discount : <span class="discount"></span>
+                        </h1>
+                    </div>
+                    <div class="discount-ways">
+                        <h1 class="text-xl">Total Price : <span class="total-price"></span></h1>
+                        <form class=" payment-ways p-4">
+                            <label for="visa">
+                                <input class=" accent-second_color cursor-pointer" type="radio" name="dis" id="visa"
+                                    value="visa"> Visa
+                            </label>
+                            <label for="pyoneer">
+                                <input class=" accent-second_color cursor-pointer" type="radio" name="dis" id="pyoneer"
+                                    value="payoneer"> Payoneer </label>
+                            <label for="master-card">
+                                <input class=" accent-second_color cursor-pointer" type="radio" name="dis"
+                                    id="master-card" value="master-card"> MasterCard </label>
+                            <p class="alert   text-red-600 text-lg hidden"> Please choose Payment Way</p>
+                        </form>
+                    </div>
+                    <img class=" block " src="./images/payments (1).png" alt="">
+                    <button
+                        class=' checkout block bg-second_color text-xl text-white font-bold  py-4 cursor-pointer'>Check
+                        Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="selectedProudct p-16">
+        <div>
+            <p class=" font-bold">Are You Sure of Payment?</p>
+        </div>
+        <div>
+            <button class="yes inline-block mr-10 bg-second_color px-5 py-2 text-white">Yes</button>
+            <button class=" no inline-block ml-10 bg-second_color px-5 py-2 text-white">No</button>
+        </div>
+    </div>
+    <div class="credit-card">
+        <h1>Enter Credit Card Number</h1>
+        <form>
+            <input class="credit w-full h-10 border border-second_color" type="text">
+        </form>
+        <p class=" credit-wrong text-red-600 hidden">Enter Vaild Credit Number</p>
+        <button
+            class="submit block bg-second_color text-xl px-6 text-white font-bold  py-4 cursor-pointer">Submit</button>
+    </div>
+    <div class="finalMassage">
+        <div class="true"><i class="fa-solid fa-check"></i></div>
+        <div>
+            <p class=" font-bold">Payment successfully.</p>
+        </div>
+    </div>
+    <footer class="h-max ">
+        <div class="container p-7 h-full">
+            <div class="fot-item">
+                <a href="#">
+                    <img src="./images/logo2.png" alt="">
+                </a>
+                <p class=" mt-5 leading-loose">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue,
+                    magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+                    luctus, metus.</p>
+                <p class="  mt-6">Got Question? Call us 24/7</p>
+                <h2 class="  text-main_color text-3xl font-bold">0123456789</h2>
+            </div>
+            <div class="fot-item ">
+                <h1>Information</h1>
+                <ul>
+                    <a href="#">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#">
+                        <li>Faq</li>
+                    </a>
+                    <a href="#">
+                        <li>Terms&Conditions</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li>Help</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="fot-item">
+                <h1>Customer Service</h1>
+                <ul>
+                    <a href="#">
+                        <li>Payment Methods</li>
+                    </a>
+                    <a href="#">
+                        <li>Money-backq</li>
+                    </a>
+                    <a href="#">
+                        <li>Returns</li>
+                    </a>
+                    <a href="#">
+                        <li>Shipping</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacy Policy</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="fot-item">
+                <h1>Get In Touch</h1>
+                <ul>
+                    <a href="#">
+                        <li>NO. 342 - London Oxford Street.</li>
+                    </a>
+                    <a href="#">
+                        <li>012 United Kingdom.</li>
+                    </a>
+                    <a href="#">
+                        <li>info@eshop.com</li>
+                    </a>
+                    <a href="#">
+                        <li>+032 3456 7890</li>
+                    </a>
+                    <li class="social">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-cc-paypal"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="payment flex justify-around  p-3 ">
+        <p class=" text-white text-xl ">Copyright © 2020 <a class=" underline" href="#">Eshop</a> - All Rights Reserved.
+        </p>
+        <div class=" w-fit h-fit">
+            <img src="./images/payments (1).png" alt="">
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <!-- swiper script -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="checkout.js"></script>
+    <script>
+        AOS.init(); // Initialize AOS
+    </script>
+</body>
+
+</html>
