@@ -1,6 +1,10 @@
 :root {
     --main-transition: 0.3s;
 }
+html,
+body{
+    overflow-x:hidden
+   }
 
 body {
     margin: 0;
