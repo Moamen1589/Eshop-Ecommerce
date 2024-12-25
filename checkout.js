@@ -71,19 +71,19 @@ visa.addEventListener('input', () => {
     priceCon.innerText = `${discount}.00$`
     let visaDiscount = discount * 5 / 100
     discountAmount.innerText = `5%`
-    totalPrice.innerText = `${visaDiscount.toFixed()}.00$`
+    totalPrice.innerText = `${ discount - visaDiscount.toFixed()}.00$`
 })
 pyoneer.addEventListener('input', () => {
     priceCon.innerText = `${discount}.00$`
     let pyoneerDiscount = discount * 7 / 100
     discountAmount.innerText = `7%`
-    totalPrice.innerText = `${pyoneerDiscount.toFixed()}.00$`
+    totalPrice.innerText = `${discount - pyoneerDiscount.toFixed()}.00$`
 })
 master.addEventListener('input', () => {
     priceCon.innerText = `${discount}.00$`
     let masterDiscount = discount * 8 / 100
     discountAmount.innerText = `8%`
-    totalPrice.innerText = `${masterDiscount.toFixed()}.00$`
+    totalPrice.innerText = `${discount - masterDiscount.toFixed()}.00$`
 })
 let checkoutBtn = document.querySelector('.checkout')
 let paymentWays = document.querySelectorAll('.payment-ways input')
